@@ -1,22 +1,6 @@
-package server
+package service
 
-import (
-	"StreamChannelSwitch/config"
-)
-
-type Server struct {
-
+type Service interface {
+	Start() error
 }
 
-
-
-
-func NewServer(config *config.Config, redis *datasource.RedisSouce) *Server {
-
-	return &Server{}
-}
-
-
-func (s *Server) Start() error {
-	return nil
-}
