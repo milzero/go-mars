@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"StreamChannelSwitch/config"
+	"go-mars/config"
 	"github.com/go-redis/redis"
 )
 
